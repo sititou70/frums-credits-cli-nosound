@@ -1,0 +1,46 @@
+project_name: frums-credits-cli
+builds:
+  - id: linux
+    goos:
+      - linux
+    goarch:
+      - amd64
+    main: .
+    ldflags: -s -w -X main.version={{.Version}} -X main.commit={{.Commit}} -X main.date={{.Date}}
+    env:
+      - CGO_ENABLED=1
+  - id: windows
+    goos:
+      - windows
+    goarch:
+      - amd64
+    main: .
+    ldflags: -s -w -X main.version={{.Version}} -X main.commit={{.Commit}} -X main.date={{.Date}}
+    env:
+      - CGO_ENABLED=1
+      - CXX=x86_64-w64-mingw32-g++
+      - CC=x86_64-w64-mingw32-gcc
+  # TODO: darwin cross build
+  #- id: darwin
+  #  goos:
+  #    - darwin
+  #  goarch:
+  #    - amd64
+  #  env:
+  #    - CGO_ENABLED=1
+  #    - SDKROOT=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk
+  #    - CMAKE_OSX_DEPLOYMENT_TARGET=10.14
+  #    - PKG_CONFIG_SYSROOT_DIR=/sysroot/macos/amd64
+  #    - PKG_CONFIG_PATH=/sysroot/macos/amd64/usr/local/lib/pkgconfig
+  #    - CC=o64-clang
+  #    - CXX=o64-clang++
+  #    - CGO_CFLAGS=-ferror-limit=0
+  #    - CGO_CXXFLAGS=-ferror-limit=0
+  #  flags:
+  #    - -mod=readonly
+  #  ldflags:
+  #    - -s -w -X main.version={{.Version}}
+snapshot:
+  name_template: SNAPSHOT-{{ .Commit }}
+checksum:
+  name_template: "{{ .ProjectName }}_{{ .Version }}_checksums.txt"
