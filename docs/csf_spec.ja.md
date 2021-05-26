@@ -1,6 +1,6 @@
 # CSF: Credits Score Format
 
-CSF は，[Frums / Credits の BGA]()のような，テキストベースのミュージックビデオを表現するためのフォーマットです．本ドキュメントだけでわからない部分は，[Frums / Credits BGA を CSF で表現した例](../static/csf-root)も参考にしてください．
+CSF は，[Credits / Frums の BGA]()のような，テキストベースのミュージックビデオを表現するためのフォーマットです．本ドキュメントだけでわからない部分は，[Credits / Frums BGA を CSF で表現した例](../static/csf-root)も参考にしてください．
 
 1 つのミュージックビデオは，以下のようなディレクトリ構成で表されます．
 
@@ -63,7 +63,7 @@ InlineDisplayCommand は，「`"`」で囲まれたテキストを画面に表�
 
 ##### 例
 
-Frums / Credits の歌詞の冒頭部分における，8 分間隔の「Fun-ding-for-this-pro-gram-was-made」は次のように表せます．
+Credits / Frums の歌詞の冒頭部分における，8 分間隔の「Fun-ding-for-this-pro-gram-was-made」は次のように表せます．
 
 ```
 ---

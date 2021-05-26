@@ -2,7 +2,7 @@
 
 ![image](https://user-images.githubusercontent.com/18525488/115956294-fd372a00-a536-11eb-8722-897f84f4c543.png)
 
-[Frums / Credits BGA (Back Ground Animation)](https://www.youtube.com/watch?v=EOTAWLaDa58) on Linux tty
+[Credits / Frums BGA (Back Ground Animation)](https://www.youtube.com/watch?v=EOTAWLaDa58) on Linux tty
 
 ## Quick Demo
 
@@ -48,7 +48,7 @@ Usage of ./credits:
 
 ## CSF: Credits Score Format
 
-CSF is a format for text-based music videos like [Frums / Credits BGA](https://www.youtube.com/watch?v=EOTAWLaDa58). For details, please refer to the [CSF specifications (Japanese)](./docs/csf_spec.ja.md)
+CSF is a format for text-based music videos like [Credits / Frums BGA](https://www.youtube.com/watch?v=EOTAWLaDa58). For details, please refer to the [CSF specifications (Japanese)](./docs/csf_spec.ja.md)
 
 ## Cross build on docker
 
