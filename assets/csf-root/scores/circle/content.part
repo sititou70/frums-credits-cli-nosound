@@ -453,7 +453,7 @@ circle/kick
 circle/shot
 circle/ride
 circle/kick
-circle/shot
+""
 ---
 circle/kick
 ""
@@ -581,7 +581,7 @@ circle/kick
 circle/shot
 circle/ride
 circle/kick
-circle/shot
+""
 ---
 circle/kick
 ""
