@@ -48,7 +48,10 @@ Usage of ./credits:
 
 ## CSF: Credits Score Format
 
-CSF is a format for text-based music videos like [Credits / Frums BGA](https://www.youtube.com/watch?v=EOTAWLaDa58). For details, please refer to the [CSF specifications (Japanese)](./docs/csf_spec.ja.md)
+CSF is a format for text-based music videos like [Credits / Frums BGA](https://www.youtube.com/watch?v=EOTAWLaDa58).
+
+- [CSF specifications (Japanese)](./docs/csf_spec.ja.md)
+- [CSF specifications (Chinese)](./docs/csf_spec.zh_CN.md)
 
 ## Cross build on docker
 
